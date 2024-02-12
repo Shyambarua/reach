@@ -210,7 +210,7 @@ section{
 }
 .card{
     /* border: 2px solid red; */
-    background: url(assets/blur.png);
+    background: url(blur.png);
     border-radius: 36px;
     height: 400px;
     width: 300px;
