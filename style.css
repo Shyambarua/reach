@@ -30,7 +30,7 @@ section{
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    background: url(assets/blur.png);
+    background: url(blur.png);
     padding: 10px;
     padding-right: 30px;
     border-radius: 40px;
