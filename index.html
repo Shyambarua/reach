@@ -5,30 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Reach</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 <body>
 
     <!-- Navbar & hero section -->
-    <section class="section1">
+    <header class="header">
+        
+        <a href="#" class="logo"><img src="assets/logo.png" alt="">Dr. Reach</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
         <nav class="navbar">
-            <div class="logo">
-                <img class="logo-img" src="logo.png" alt="">
-                <span class="logo-text">Dr.Reach</span>
-            </div>
-            <div class="link">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Contact</a>
-        </div>
-        <div class="login">
-            <button class="btn1">Login</button>
-        </div>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact_us_green">Contact</a>
         </nav>
 
+        <button class="btn1">Login</button>
+    </header>
+    
+    <section class="section1">
+        
         <div class="hero">
             <div class="hero-text">
                 <h3 class="heading1">| WELCOME TO DR.REACH</h3>
@@ -37,13 +39,13 @@
             </div>
 
             <div class="hero-img">
-                <img src="banner_img.png" alt="">
+                <img src="assets/banner_img.png" alt="">
             </div>
         </div>
     </section>
 
 
-    <!-- Service section  -->
+    <!-- Service section2  -->
 
 
     <section class="section2">
@@ -53,40 +55,51 @@
         <div class="block-box">
             
             <div class="boxline1">
-                <div class="box">
+                <a href=""><div class="box">
+                    <img src="assets/onlinemode.png" alt="" >
                     <h1>Online <br> Mode</h1>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p>
+                    <!-- <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p> -->
                 </div>
-                <div class="box">
+                </a>
+                <a href=""><div class="box">
+                    <img src="assets/offlinemode.png" alt="">
                     <h1>Offline <br> Mode</h1>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p>
+                    <!-- <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p> -->
                 </div>
+                </a>
             </div>
 
             <div class="boxline1">
-                <div class="box">
+                <a href="#">
+                    <div class="box">
+                        <img src="assets/homevisit.png" alt="">
                     <h1>Home <br> Visit</h1>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p>
+                    <!-- <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p> -->
                 </div>
-                <div class="box">
+            </a>
+                <a href=""><div class="box">
+                    <img src="assets/videocall.png" alt="">
                     <h1>Video <br> Call</h1>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p>
+                    <!-- <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem corrupti amet ipsam ex ut autem alias excepturi et cupiditate.</p> -->
                 </div>
+                </a>
             </div>
 
          </div>
-            <img src="hc.png" alt="">
+            <img class="img1" src="assets/hc.png" alt="">
         </div>
 
     </section>
+
+    <!-- Doctors Section3  -->
 
     <section class="section3">
         <h3 class="heading4">| Meet Our Doctors</h3>
         <h1 class="heading5">Our Specialist</h1>
 
-        <div class="card-box">
+        <div class="card-box scrollmenu">
             <div class="card">
-                <img src="doctor.jpg" alt="">
+                <img src="assets/dr.jpg" alt="">
                 <h1 class="head6">Dr. Shyam Barua</h1>
                 <h3 class="head6">Cardiology</h3>
                 <h5 class="head6">(MBBS)</h5>
@@ -94,41 +107,54 @@
             </div>
 
             <div class="card">
-                <img src="doctor.jpg" alt="">
+                <img src="assets/dr.jpg" alt="">
+                <h1 class="head6">Dr. Shyam Barua</h1>
+                <h3 class="head6">Cardiology</h3>
+                <h5 class="head6">(MBBS)</h5>
+                <button class="btn3">Book Now</button>
+            </div>
+        
+            <div class="card">
+                <img src= "assets/dr.jpg" alt="">
                 <h1 class="head6">Dr. Shyam Barua</h1>
                 <h3 class="head6">Cardiology</h3>
                 <h5 class="head6">(MBBS)</h5>
                 <button class="btn3">Book Now</button>
             </div>
             <div class="card">
-                <img src="doctor.jpg" alt="">
+                <img src="assets/dr.jpg" alt="">
                 <h1 class="head6">Dr. Shyam Barua</h1>
                 <h3 class="head6">Cardiology</h3>
                 <h5 class="head6">(MBBS)</h5>
                 <button class="btn3">Book Now</button>
             </div>
             <div class="card">
-                <img src="doctor.jpg" alt="">
+                <img src="assets/dr.jpg" alt="">
                 <h1 class="head6">Dr. Shyam Barua</h1>
                 <h3 class="head6">Cardiology</h3>
                 <h5 class="head6">(MBBS)</h5>
                 <button class="btn3">Book Now</button>
             </div>
+            
         </div>
+
+        
 
 
     </section>
 
+    <!-- Contact Section4  -->
+
     <section class="section4">
         <h1 class="head7">We want to help.</h1>
         <div class="block1">
-            <img src="contact_img.png" alt="">
+            <img src="assets/contact_img.png" alt="">
             <div class="text">
                 <h2>Follow us on social media</h2>
                 <div class="link1">
-                    <a href=""><i class='bx bxl-facebook-circle' ></i></a>
-                    <a href=""><i class='bx bxl-instagram' ></i></a>
-                    <a href=""><i class='bx bxl-twitter' ></i></a>
+                    <a href=""><i class='bx bx1 bxl-facebook-circle' ></i></a>
+                    <a href=""><i class='bx bx1 bxl-instagram' ></i></a>
+                    <a href=""><i class='bx bx1 bxl-twitter' ></i></a>
                 </div>
                 <div class="add">
                     <div class="officeadd bx-add">
@@ -149,6 +175,13 @@
 
     </section>
 
+    <footer>
+        <div class="center">
+            Copyright &copy; Dr. Reach. All rights reserved!
+        </div>
+    </footer>
 
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
